@@ -30,16 +30,16 @@ main {
   flex: 1 1 0;
   padding: 0px 16px;
 }
- section {
+/* section {
   float: left;
   width: 100%;
   height: 100px;
   display: none;
-} 
+}  */
 
 .search-container {
   display: flex;
-  justify-content: space-between; /* Search bar and button should be on their own line */
+  justify-content: flex-end;
 }
 
 button {
@@ -47,9 +47,14 @@ button {
   justify-content: flex-end;
   /* float: left; */
   padding: 9px;
-  margin: 8px 5px;
+  margin: 10px 5px;
   border-radius: 10px;
   border: none;
+  margin-bottom: 28px;
+  cursor: pointer;
+}
+button:active {
+  background-color: #2980b9;
 }
 
 input {
